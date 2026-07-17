@@ -47,7 +47,7 @@ Full flow run through **OpenLane / OpenROAD** on the **SKY130 PDK**:
 - Synthesis → Floorplan → Placement → CTS → Global/Detailed Routing → DRC/LVS signoff (KLayout)
 - Run ID: `RUN_2026.06.21_10.47.52`
 - **Final GDS size: 247 KB** (`hazard_unit.klayout.gds`)
-- **DRC signoff: 167 DRC violations** reported in this run. These are disclosed as-is; if you're evaluating this repo, treat the layout as a completed signoff *run* rather than a zero-violation clean signoff — see `results/signoff/` for the full DRC report.
+- DRC signoff: 0 violations — clean signoff (KLayout, final run RUN_2026.06.21_10.47.52). See results/signoff/drc.rpt for the full report.
 
 ## RTL provenance note
 
